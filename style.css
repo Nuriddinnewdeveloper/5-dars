@@ -1,0 +1,60 @@
+.Box1{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+   
+    text-align: center;
+    display: inline-block;
+}
+.Box2{ width: 200px;
+    height: 150px;
+    background-color:yellow;
+    display: inline-block;
+    text-align: center;
+
+}
+.Box3{
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    
+    display: inline-block;
+    text-align: center;
+    margin-top: 150px;
+}
+.Box4{
+    width: 200px;
+    height: 150px;
+    background-color:grey;
+   display: inline-block;
+text-align: center;
+margin-top:  150px; ;
+}
+
+
+.Box5{
+    width: 280px;
+    height: 200px;
+    background-color:aqua;
+    display: inline-block;
+    text-align: center;
+    margin-top: 200px;
+   
+}
+.Box1:hover{background-color: blueviolet;
+border: solid black 5px;
+color: white;
+width: 350px;
+height: 100px;}
+.Box2:hover{background-color: hotpink;
+border:dotted 5px black;
+height: 300px;}
+.Box3:hover{background-color: rgb(105, 208, 255);
+    border:double 5px black;
+    border-radius: 50%;}
+.Box4:hover{background-color: rgb(245, 255, 105);
+    border:double 5px black;
+    border-radius: 50%;
+height: 300px;}
+.Box5:hover{ transform: scale(0.5);background-color: yellowgreen;}
+.wrapper:hover{transform: rotate(180deg);}
